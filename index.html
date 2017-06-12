@@ -7,10 +7,10 @@
     <title>My test page</title>
   </head>
   <body>
-    <h1>Mozilla is Cool</h1>
+    <h1 id="cool">Mozilla is Cool</h1>
     <br>
-    <img src="images/image1.jpg" alt="My test image">
-    <br><br>
+    <img srcset="images/imagesmall.jpg images/image2.jpg" sizes= "(max-widtg: 300 px) 280px, (max-width: 480px) 400px " src="images/image1.jpg" alt="My test image">
+    <br>
     <br>
     <p>At Mozilla, we’re a global community of</p>
     <ul> 
@@ -18,8 +18,9 @@
         <li>thinkers</li>
         <li>builders</li>
     </ul>
-    <p>working together ... Please go through our link <a href="http://www.google.com">here</a>.</p>
-    <button>Change user</button>
+    <input type="text" disabled>
+    <p>working together ... Please go through our link <a title="www.google.com" href="http://www.google.com">here</a>.</p>
+    <button>Change user</button>  
     <script src="scripts/main.js"></script>
   </body>
 </html>
